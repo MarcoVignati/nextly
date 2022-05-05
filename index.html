@@ -4,26 +4,76 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/main.css">
     <title>Nextly</title>
 </head>
 <body>
     <section class="container-max hero">
-        <nav class="hero__nav">
+        <nav class="container-margin hero__nav">
             <img class="nav__img" src="./assets/img/logoNextly.svg" alt="Nextly">
             <ul class="nav__menu">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Work</a></li>
-                <li><a href="#">Cases</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a class="menu__link" href="#">About</a></li>
+                <li><a class="menu__link" href="#">Work</a></li>
+                <li><a class="menu__link" href="#">Cases</a></li>
+                <li><a class="menu__link" href="#">Contact</a></li>
             </ul>
         </nav>
-        <div class="hero__left">
-            <h1>We’re bringing software development to the next<sup>ly</sup> level.</h1>
+        <div class="hero__textbox">
+            <h1>We’re bringing<br>software development<br>to the next<sup>ly</sup> level.</h1>
             <h6>Talk to our Business Specialist!</h6>
-            <a class="left__btn" href="#">Schedule a meeting</a>
+            <a class="textbox__btn" href="#">Schedule a meeting</a>
         </div>
+    </section>
+    <section class="container-max info">
+        <div class="info__top">
+            <h4 class="top__textbox">
+                <b>Nextly</b> is a team of <b>+60 developers</b>, systems architects, designers, founders, and makers that have been working together for over <b>10 years</b> building scalable tech solutions for <b>Fortune 500s</b>, Inc 5000s, high-growth startups, and even internationally renowned names such as the <b>UN</b> & the <b>IOC</b>.
+            </h4>
+        </div>
+        <div class="info__bot">
+            <h6 class="container-margin">We’re more than proud of the +70,000 hours we’ve worked to deliver succesful digital products in different industries. See some of it.</h6>
+        </div>
+    </section>
+    <section class="container-max vendoo">
+        <div class="container-margin vendoo__container">
+            <div class="vendoo__content">
+                <img src="./assets/img/vendoo-logo.png" alt="">
+                <div class="content__tech">
+                    <p class="tech__container">React/Redux</p>
+                    <p class="tech__container">Firebase</p>
+                    <p class="tech__container">Node.js/Express</p>
+                    <p class="tech__container">AWS</p>
+                </div>
+                <h4 class="content__heading">
+                    <b>Vendoo</b>    is an e-commerce platform envisioned by a D.C.- based startup. We’ve built a Node.js application where users can cross-post their inventory onto multiple marketplaces such as eBay, Etsy, Poshmark, Mercari, Grailed, and Depop. 
+                </h4>
+            </div>
+            <img src="./assets/img/mockup-vendoo.png">
+        </div>
+    </section>
+    <section class="container-min testimonial">
+
+    </section>
+    <section class="container-max jobpixel">
+        <div class="container-margin vendoo__container">
+            <div class="vendoo__content">
+                <img src="./assets/img/jobpixel-logo.png" alt="">
+                <div class="content__tech">
+                    <p class="tech__container">React/Redux</p>
+                    <p class="tech__container">Firebase</p>
+                    <p class="tech__container">Node.js/Express</p>
+                    <p class="tech__container">AWS</p>
+                </div>
+                <h4 class="content__heading">
+                    <b>JobPixel</b>   , a Bay Area-based startup, came to humanize hiring. To help, we’ve built a video-first platform that makes it astonishingly easy for companies to hire candidates with video and for candidates to submit video in lieu of or in addition to the traditional resumé and cover letter.
+                </h4>
+            </div>
+            <img src="./assets/img/mockup-jobpixel.png">
     </section>
 </body>
 </html>
